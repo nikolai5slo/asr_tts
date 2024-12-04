@@ -1,0 +1,17 @@
+{
+  "domain": "asr_stt",
+  "name": "ASR STT",
+  "codeowners": [
+    "@nikolai5slo"
+  ],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/nikolai5slo/asr_tts",
+  "iot_class": "calculated",
+  "issue_tracker": "https://github.com/nikolai5slo/asr_tts/issues",
+  "requirements": [
+    "requests>=2.25.1",
+    "pydub>=0.25.1"
+  ],
+  "version": "1.0.0"
+}

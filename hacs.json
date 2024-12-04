@@ -1,5 +1,5 @@
 {
-    "name": "OpenAI STT for HACS",
-    "homeassistant": "2023.9.0",
+    "name": "ASR STT for HACS",
+    "homeassistant": "2024.11.0",
     "render_readme": true
 }
