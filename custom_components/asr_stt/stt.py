@@ -86,8 +86,8 @@ class ASRSTT(stt.SpeechToTextEntity):
         memory_file = io.BytesIO()
 
         # Export audio file to memory
-        end = silence.detect_leading_silence(sound.reverse())
-        sound = sound[silence.detect_leading_silence(sound):-end]
+        # end = silence.detect_leading_silence(sound.reverse())
+        # sound = sound[silence.detect_leading_silence(sound):-end]
         sound = effects.normalize(sound) 
         sound.export(memory_file, format="wav")
 
