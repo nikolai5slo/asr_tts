@@ -98,7 +98,7 @@ class ASRSTT(stt.SpeechToTextEntity):
         def job():
             response = requests.post(url, files=files)
             if response.status_code == 200:
-                _LOGGER.error("Response: %s", response.text)
+                _LOGGER.debug("Response: %s", response.text)
                 return response.json()["result"]
             else:
                 _LOGGER.error("%s", response.text)
